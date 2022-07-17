@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	background: url("../img/background.png") #020D1E no-repeat center center fixed;
+}
+
+header, section {
+	display: block
+}
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects
+}
+
+.header {
+	z-index: 1;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%)}
+
+.fullname {
+	font-size: 50px;
+	display: block;
+	line-height: 1;
+	color: #fff;
+	font-weight: bold;
+}
+
+.title {
+	font-weight: lighter;
+}
+
+.icon {
+	color: #fff;
+	text-align: center;
+	height: 20px;
+	padding: 10px;
+	border-radius: 50%;
+	transition: all .5s;
+	width: 20px;
+	font-size: 20px;
+	margin: 5px;
+	border: 2px solid #fff;
+}
+
+.icon:active, .icon:hover {
+	color: #020D1E;
+	background: #fff
+}
