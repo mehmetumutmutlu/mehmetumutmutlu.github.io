@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Ben Umut Mutlu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      background: linear-gradient(-45deg, #000000, #000033, #000000, #000044);
+      background-size: 400% 400%;
+      animation: gradientBG 20s ease infinite;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .name {
+      font-size: 4.5rem;
+      font-weight: 900;
+      letter-spacing: 1px;
+      text-shadow: 0 0 20px rgba(255,255,255,0.1);
+      font-family: sans-serif;
+    }
+
+    .name span {
+      background-color: #ffffff;
+      color: #000033;
+      padding: 5px;
+    }
+
+    .subtitle {
+      font-size: 3rem;
+      font-weight: 400;
+      margin-top: 1.5rem;
+      opacity: 0.85;
+      text-shadow: 0 0 10px rgba(0,0,0,0.4);
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="name">Ben <span>Umut Mutlu</span></div>
+    <div class="subtitle">Yakında buradayım...</div>
+  </div>
+</body>
+</html>
