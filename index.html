@@ -12,6 +12,7 @@
       padding: 0;
       height: 100%;
       width: 100%;
+      font-family: 'Poppins', sans-serif;
       overflow: hidden;
     }
 
@@ -24,6 +25,7 @@
       justify-content: center;
       text-align: center;
       color: white;
+      padding: 1rem;
     }
 
     @keyframes gradientBG {
@@ -36,29 +38,28 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      max-width: 100%;
     }
 
     .name {
-      font-size: 4.5rem;
+      font-size: clamp(2rem, 6vw, 4.5rem);
       font-weight: 900;
       letter-spacing: 1px;
       text-shadow: 0 0 20px rgba(255,255,255,0.1);
-      font-family: sans-serif;
+      white-space: nowrap;
     }
 
     .name span {
-      background-color: #ffffff;
-      color: #000033;
-      padding: 5px;
+      color: #00BFFF;
     }
 
     .subtitle {
-      font-size: 3rem;
+      font-size: clamp(1rem, 4vw, 2rem);
       font-weight: 400;
-      margin-top: 1.5rem;
+      margin-top: 1rem;
       opacity: 0.85;
       text-shadow: 0 0 10px rgba(0,0,0,0.4);
-      font-family: 'Poppins', sans-serif;
+      white-space: nowrap;
     }
   </style>
 </head>
